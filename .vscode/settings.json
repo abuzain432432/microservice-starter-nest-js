@@ -1,0 +1,22 @@
+{
+  "cSpell.words": ["dtos"],
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "PAGE: ${dirname}",
+    "**/libs/contracts/src/**/*.ts": "Lib contracts ${filename}",
+    "**/apps/api-gateway/src/**/*.controller.ts": "GATEWAY ${dirname} Module Controller",
+    "**/apps/api-gateway/src/**/*.service.ts": " GATEWAY ${dirname} Module Service",
+    "**/apps/api-gateway/src/app.module.ts": "GATEWAY App Module",
+    "**/apps/api-gateway/src/main.ts": "Gateway Main Entry",
+    "**/apps/api-gateway/src/**/*.module.ts": "GATEWAY ${dirname} Module",
+    "**/apps/*/src/*/*.service.ts": "MICRO APP  ${dirname} Service",
+    "**/apps/*/src/*/*.controller.ts": "MICRO APP  ${dirname} Controller",
+    "**/apps/*/src/*/*.module.ts ": "MICRO APP  ${dirname} Module",
+    "**/apps/*/src/main.ts": "MICRO APP ${dirname(1)} Main Entry",
+    " **/apps/*/src/*-app.module.ts": "MICRO APP ${dirname(1)} app module",
+    "**/apps/*/src/*/*repository.ts": "MICRO APP ${dirname} Repository",
+    "**/libs/contracts/src/*/index.ts": " Lib ${dirname} contracts ",
+    "**/libs/common/DB/src/repositories/*repository.ts": "Lib common ${dirname(2)} Module Repository",
+    "**/libs/common/*/src/schemas/*schema.ts": "Lib common ${dirname(2)} ${filename} Schema",
+    "**/libs/common/*/src/*module.ts": "Lib common ${dirname(1)} Module"
+  }
+}
